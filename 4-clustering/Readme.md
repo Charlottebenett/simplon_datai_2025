@@ -7,7 +7,8 @@ Découvrir l'apprentissage non-supervisé au travers de l'algorithme K-means.
 
 ## Contexte
 
-L'apprentissage supervisé ce présente comme une approche de l'apprentissage automatique qui permet de découvrir la structure sous-jacente des données en l'absence d'étiquetage, c'est à dire sans catégories ou classe connues en avance.
+L'apprentissage non-supervisé se présente comme une approche de l'apprentissage automatique qui permet de découvrir la structure sous-jacente des données en l'absence d'étiquetage, c'est à dire sans catégorie ou classe connues en avance.
+
 
 Afin de se familiariser avec cette approche et mieux l'appréhender pour l'utiliser dans des scénario plus complexes, les objectifs sont les suivants : 
 * Nous souhaitons comprendre le principe de cette technique et les scénarios d'utilisation.
@@ -19,12 +20,24 @@ Afin de se familiariser avec cette approche et mieux l'appréhender pour l'utili
 Question de veilles:
 
 * Qu'est ce que le clustering ?
-* Est ce un probleme difficile  ? pourquoi ? Donnez la compléxité en temps et mémoire 
+* Est ce un problème difficile  ? pourquoi ? Donnez la complexité en temps et mémoire 
 * Quelle sont les métriques utilisés pour le clustering ?
-* Ecrivez en une phrase votre compréhension pour 3 métrique avec ground truth (dont MNI) 3 sans ground truth (dont silouhette)
+* Écrivez en une phrase votre compréhension pour 3 métrique avec ground truth (dont MNI) 3 sans ground truth (dont silhouette)
 	* donner en une phrase l'intuition derrière ces mesures.
 * différence entre NMI et AMI ?
 
+## Explore 
+
+- Run a clustering algorithm on digits dataset digits/mnist dataset to cluster the numbers.
+- Compute the different metrics for unsupervised learning and comments on them.
+- Visualize the clustering in a 2D dimensional space using dimensionality reduction techniques.
+
+## Dive
+
+- Load and understand the **20 news groups** dataset.
+- Use clustering to find out the group of the document, but this time use train test split method to evaluate the results.
+- Compare the results of the clusetring with another model called LDA ? https://scikit-learn.org/stable/modules/decomposition.html#latentdirichletallocation
+- Compare your clustering models with a classic classification approach. Which one works better ? why ?
 
 
 ## Ressources
